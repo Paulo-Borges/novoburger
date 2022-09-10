@@ -1,0 +1,463 @@
+/* home-header */
+#promocao .home-header {
+    background: url('./imagem/grande1.jpeg')no-repeat center center;
+    max-width: 1440px;
+    height: 680px;
+    margin: 0 auto;
+}
+
+#promocao .home-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#promocao .home-nav img {
+    margin-left: 135px;
+    margin-top: 21px;
+    width: 107px;
+    height: 28px;
+}
+
+#promocao .home-setor {
+    display: flex;
+    margin-top: 30px;
+    align-items: start;
+
+}
+
+#promocao .home-setor a {
+    color: var(--titulo-banner);
+    padding: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+
+}
+
+#promocao img.vector {
+    width: 31.36px;
+    height: 25.87px;
+    margin: -2px 0px 0px 25px;
+}
+
+#promocao img.fav {
+    width: 31.36px;
+    height: 25.87px;
+    margin: -2px 142px 0px 50px;
+    border-radius: 50px;
+}
+
+#promocao .home-header h1 {
+    width: 1013px;
+    height: 84px;
+    margin-top: 184px;
+    margin-bottom: 50px;
+    margin-left: 223px;
+    color: var(--titulo-banner);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84.38px
+}
+
+#promocao a.botao {
+    width: 270px;
+    height: 68px;
+    margin-top: 361px;
+    margin-left: 585px;
+    color: var(--titulo-banner);
+    padding: 20px 80px;
+    background: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+  
+}
+
+@media (max-width:1100px){
+    #promocao .home-header h1 {
+        margin-left: 33px;  
+    }
+    #promocao a.botao  {
+    margin-left: 285px;
+
+    }
+}
+@media (max-width:900px){
+    #promocao .home-nav {
+        display: block;
+    }
+    #promocao .home-nav img.fast {
+       width: 310px;
+       height: 90px;
+       margin-left: 200px;
+       margin-bottom: 100px;
+    }
+    #promocao .home-nav img.vector,
+    #promocao .home-nav img.fav {
+       margin-left: 10px;
+    }
+
+    #promocao .home-nav .home-setor li {
+       margin-bottom: 40px;  
+    }
+
+    #promocao .home-nav .home-setor li a{
+        font-size: 24px;
+        font-weight: 700;
+    }
+     #promocao .home-nav .home-setor li a:hover {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    #promocao .home-setor {
+        display: block;
+    }
+    #promocao .home-header h1 {
+        display: none;  
+    }
+    #promocao a.botao  {
+        display: none;  
+    }
+}
+@media (max-width:500px){
+    #promocao .home-nav img.fast {
+        margin-left: 50px;
+     }
+}
+   
+/* home-burguer */
+
+#promocao .home-burguer {
+    background: var(--titulo-banner);
+    max-width: 1440px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+
+}
+
+#promocao .home-burguer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#promocao .home-lanch {
+    margin-left: 40px;
+    width: 370px;
+    height: 446px;
+    border: 2px solid rgba(150, 150, 150, 0.4);
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+#promocao .home-lanch img {
+    width: 370px;
+    height: 214px;   
+}
+
+#promocao .home-lanch h2 {
+    width: 68px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-left: 8px;
+    margin-top: 16px;
+}
+
+#promocao .home-lanch h1 {
+    color: var(--text-burguer);
+    width: 202px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    margin-left: 8px;
+    margin-top: 20px;
+
+}
+
+#promocao .home-lanch h3 {
+    color: var(--text-burguer);
+    width: 355px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    margin-left: 8px;
+    margin-top: 20px;
+
+}
+
+#promocao .home-lanch span {
+    color: var(--btn-base);
+    width: 355px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+#promocao .home-btn {
+
+    color: var(--titulo-banner);
+    padding: 10px 40px 10px 40px;
+    background: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    margin-right: 8px;
+    
+}
+#promocao .home-preco {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#promocao .home-preco p{
+    width: 65px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.06px;
+    margin-left: 8px;
+}
+
+#promocao .home-preco span {
+    width: 49px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.06px;
+}
+
+@media (max-width:900px){
+    #promocao .home-burguer-grid {
+        grid-template-columns: 1fr 1fr;
+    
+    }
+}
+@media (max-width:500px){
+    #promocao .home-burguer-grid {
+        grid-template-columns: 1fr;
+    
+    }
+}
+
+/*#promocao  home-promocao */
+#promocao .home-promo {
+    background: url('./imagem/grande2.jpeg')no-repeat center center;
+    max-width: 1440px;
+    width: 100%;
+    height: 510px;
+    margin: 0 auto;
+}
+
+#promocao .home-promo h1 {
+    color: var(--titulo-banner);
+    width: 1012px;
+    height: 113px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 112.5px;
+    margin-left: 128px;
+}
+
+#promocao .home-promo h2 {
+    color: var(--titulo-banner);
+    width: 247px;
+    height: 84px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84.38px;
+    margin-top: 200px;
+    margin-left: 979px;
+}
+
+@media (max-width:1100px){
+    #promocao .home-promo h1 {
+        width: 100%;   
+        margin-left: 20px;
+    }
+    #promocao .home-promo h2 {
+        margin-left: 679px;
+    }
+}
+@media (max-width:900px){
+    #promocao .home-promo h1 {
+        width: 100%;   
+        margin-left: 120px;
+    }
+}
+@media (max-width:500px){
+    #promocao .home-promo h1 {
+        width: 100%;   
+        margin-left: 5px;
+    }
+    #promocao .home-promo h2 {
+        display: none;
+    }
+}
+
+/*#promocao  home-icons*/
+#promocao .home-icons {
+    display: flex;
+    max-width: 1440px;
+    background: var(--titulo-banner);
+    margin: 0 auto;
+    gap: 100px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+#promocao .home-icons img {
+    margin-left: 10px;
+}
+
+#promocao .icon-mao img {
+    margin-top: 35px;
+}
+
+#promocao .icon-estrela img {
+    margin-top: 40px;
+}
+
+#promocao .icon-estrela p {
+    color: var(--icon-footer);
+    margin-top: 100px;
+}
+#promocao .icon-chapeu img {
+    margin-top: 40px;
+}
+
+#promocao .icon-chapeu p {
+    color: var(--icon-footer);
+    margin-top: 50px;
+}
+   
+@media (max-width:1100px){
+    #promocao .home-icons {
+        padding: 40px;
+    }
+    #promocao .icon-chapeu img,
+    #promocao .icon-chapeu p  {
+        display: none;
+    }
+}
+@media (max-width:900px){
+    #promocao .home-icons {
+        padding-left: 130px;
+    }
+    #promocao .icon-estrela img,
+    #promocao .icon-estrela p {
+        display: none;
+
+    } 
+}
+@media (max-width:500px){
+    #promocao .icon-mao img {
+        display: none;
+    }
+    #promocao .home-icons img {
+        padding-left: 100px;
+    }
+}
+
+/*#promocao  home-footer */
+#promocao .footer {
+    width: 1440px;
+    height: 351px;
+    background: var(--bg-footer);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#promocao .home-rede h1 {
+    display: block;
+    width: 296px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56.25px;
+    margin-top: 117px;
+    margin-left: 105px;
+    color: var(--titulo-banner);
+}
+
+#promocao .home-rede img {
+    padding: 20px 0 0 95px;
+    margin-top: 0px;
+    gap: 20px;
+
+}
+
+#promocao .home-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#promocao .home-news label{
+    grid-column: 1/-1;
+    margin-top: 90px;
+    width: 245px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56.25px;
+    color: var(--titulo-banner);
+   
+}
+
+#promocao .home-news input {
+    font-size: 36px;
+    margin-bottom: 80px;
+}
+#promocao .home-news a {
+    width: 105px;
+    height: 28px;
+    margin-left: 10px;
+    color: var(--titulo-banner);
+    padding: 10px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    background: var(--btn-base);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28.13px;
+    margin-bottom: 80px;
+}
+@media (max-width:1100px){
+    #promocao .home-news {
+        margin-left: -250px;
+    }
+}
+@media (max-width:900px){
+    #promocao .home-news {
+        display: none;
+    }
+    #promocao .home-rede {
+        margin-left: 100px;
+    }
+}
+@media (max-width:500px){
+    #promocao .home-rede {
+        margin-left: 0;
+    }
+}

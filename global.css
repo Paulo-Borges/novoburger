@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --titulo-banner: #ffffff;
+    --text-burguer: #333333;
+    --btn-base: #e32c2c;
+    --icon-footer:#ff8515 ;
+    --bg-footer:#525252 ;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.btn-ligado {
+    background: var(--btn-base);
+}
